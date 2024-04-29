@@ -1,0 +1,25 @@
+﻿<Window x:Class="Styless.Views.Style2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Styless.Views"
+        xmlns:design="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="Style2" Height="619" Width="465">
+    <Grid HorizontalAlignment="Left" Width="463" RenderTransformOrigin="0.492,0.44">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="3*"/>
+
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" HorizontalAlignment="Center" Height="40" FontSize="20" Width="70" VerticalAlignment="Top" Content="Clients" Style="{StaticResource MaterialDesignLabel}" Foreground="{StaticResource PrimaryHueMidBrush}" Margin="0,22,0,0" RenderTransformOrigin="0.679,0.603" />
+        <Label HorizontalAlignment="Left" Height="40" FontSize="20" Width="134" VerticalAlignment="Top" Content="Welcome Ali" Style="{StaticResource MaterialDesignLabel}" Foreground="Blue" Margin="168,78,0,0" RenderTransformOrigin="0.679,0.603" />
+        <Label Grid.Row="1" Background="{StaticResource MaterialDesignDarkBackground}"  Foreground="AliceBlue" HorizontalAlignment="Center" Width="454" Margin="0,16,0,23"/>
+        <Label  Height="50" Width="200" Foreground="AliceBlue" FontSize="25" Content="create new client" Margin="136,93,127,83" Grid.Row="1"/>
+        <Label Grid.Row="2" Background="{StaticResource MaterialDesignDarkBackground}"  Foreground="AliceBlue" HorizontalAlignment="Center" Width="454" Margin="0,16,0,23"/>
+        <Label  Height="50" Width="200" Foreground="AliceBlue" FontSize="25" Content="all clients" Margin="149,89,114,87" Grid.Row="2"/>
+
+    </Grid>
+</Window>
