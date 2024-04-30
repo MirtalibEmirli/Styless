@@ -3,6 +3,16 @@
 
 
     <Style x:Key="labl" TargetType="Label">
-        
+        <Setter Property="Foreground" Value="DarkSlateBlue"/>
+        <Setter Property="FontSize" Value="15"/>
+        <Setter Property="Width" Value="445" />
+        <Setter Property="Height" Value="31"/>
+    </Style>
+    
+    <Style x:Key="txtbox" TargetType="TextBox">
+        <Setter Property="Background" Value="White" />
+        <Setter Property="BorderBrush" Value="AliceBlue"/>
+        <Setter Property="BorderThickness" Value="1" />
+        <Setter Property="Height" Value="41"/>
     </Style>
 </ResourceDictionary>
